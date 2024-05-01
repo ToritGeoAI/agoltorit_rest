@@ -1,3 +1,819 @@
+
+Chat
+
+
+
+has context menu
+has context menuYou were mentioned.SMS chat.Unread message.Last message:Group chat.Meeting Chat.Chat.You're starting a new conversation..This chat is muted.You can't send messages because you are not a member of the chat.
+
+
+Chat
+
+Files
+
+Has context menu
+
+
+
+Link Challenge: Challenge: Temperature Conv... by Akter, Airin
+Akter, Airin
+Saturday 6:07 PM
+
+Challenge: Challenge: Temperature Converter (instructure.com) ekhane python file up dibi
+
+yes by Akter, Airin
+Akter, AirinSaturday 6:07 PM
+
+yes
+
+bro by Chakraborty, Torit
+Saturday 6:29 PM
+Chakraborty, Torit
+
+bro
+
+Hu by Akter, Airin
+Akter, Airin
+Saturday 6:30 PM
+
+Hu
+
+notebook share kore koi theke by Chakraborty, Torit
+Saturday 6:30 PM
+Chakraborty, Torit
+
+notebook share kore koi theke
+
+ami option passi na kn by Chakraborty, Torit
+Saturday 6:30 PMChakraborty, Torit
+
+ami option passi na kn
+
+Ha by Akter, Airin
+Akter, Airin
+Saturday 6:30 PM
+
+Ha
+
+ami oi lopp ta kortesi by Chakraborty, Torit
+Saturday 6:30 PM
+Chakraborty, Torit
+
+ami oi lopp ta kortesi
+
+Eitai amar problem hoiche by Akter, Airin
+Akter, Airin
+Saturday 6:30 PM
+
+Eitai amar problem hoiche
+
+Prothom ta? by Akter, Airin
+Akter, AirinSaturday 6:30 PM
+
+Prothom ta?
+
+Share er option nai. Tui tor online arcgis ... by Akter, Airin
+Akter, AirinSaturday 6:31 PM
+
+Share er option nai. Tui tor online arcgis e giye ekta new notebook khule tar modhdhe eitake upload de
+
+anything  by Chakraborty, Torit
+Saturday 6:31 PM
+Chakraborty, Torit
+
+anything 
+
+Ami eitai korchi by Akter, Airin
+Akter, Airin
+Saturday 6:31 PM
+
+Ami eitai korchi
+
+konta korish by Chakraborty, Torit
+Saturday 7:00 PM
+Chakraborty, Torit
+
+konta korish
+
+Ar ektao kori nai by Akter, Airin
+Akter, Airin
+Saturday 7:00 PM
+
+Ar ektao kori nai
+
+Ei 3 tai korchi by Akter, Airin
+Akter, AirinSaturday 7:00 PM
+
+Ei 3 tai korchi
+
+Monday
+Message by Chakraborty, Torit, has attachments.
+Monday 1:41 PM
+Chakraborty, Torit
+
+DemContour.py
+Contour.docx
+Message by Akter, Airin, has an attachment.
+Akter, Airin
+Monday 1:57 PM
+
+Decision Structures.docx
+Message by Chakraborty, Torit, has attachments.
+Monday 2:19 PM
+Chakraborty, Torit
+
+nila buffer.png
+nilamd.png
+Message by Chakraborty, Torit, has an attachment.
+Monday 2:23 PMChakraborty, Torit
+
+Loops.ipynb
+Message by Akter, Airin, has an attachment.
+Akter, Airin
+Monday 2:34 PM
+
+Torit_lists of attributes.png
+Message by Chakraborty, Torit, has an attachment.
+Monday 5:27 PM
+Chakraborty, Torit
+
+buffer_500.py
+damianrodriguez@ufl.edu by Akter, Airin
+Akter, Airin
+Monday 5:53 PM
+
+damianrodriguez@ufl.edu
+
+  image   by Akter, Airin
+Akter, AirinMonday 5:56 PM
+
+ 
+
+image
+
+ 
+
+Message by Chakraborty, Torit, has attachments.
+Monday 6:32 PM
+Chakraborty, Torit
+
+nilatool1.png
+nilatool2.png
+<html> <head> <meta charset="utf-8" /> <tit... by Akter, Airin
+Akter, Airin
+Monday 7:36 PM
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+
+<title> Hello, AGOL2 </title>
+
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+<title>ArcGIS Maps SDK for JavaScript Tutorials: Display a map</title>
+
+ 
+
+        <style>
+
+            html,
+
+            body,
+
+            #viewDiv {
+
+                padding: 0;
+
+                margin: 0;
+
+                height: 100%;
+
+                width: 100%;
+
+            }
+
+</style>
+
+ 
+
+        <link rel="stylesheet" href="https://js.arcgis.com/4.28/esri/themes/light/main.css">
+
+<script src="https://js.arcgis.com/4.28/"></script>
+
+ 
+
+        <script>
+
+            require([  
+
+"esri/config",  
+
+"esri/Map",  
+
+"esri/views/MapView",  
+
+"esri/Graphic",  
+
+"esri/layers/GraphicsLayer"  
+
+], function(esriConfig,Map, MapView, Graphic, GraphicsLayer) {
+
+           
+
+            require(["esri/config", "esri/Map", "esri/views/MapView"], function(esriConfig, Map, MapView) {
+
+ 
+
+                esriConfig.apiKey = "AAPKacbc03aeb64248229c85810ce9f22ce7RC4SiHjeE1hD_QTL2MVmvDjYBkU3xDiPD-mG3iL_EtnPjbpwIMT86F2d2LLQZDue";
+
+ 
+
+                const map = new Map({
+
+                    basemap: "arcgis/topographic" // basemap styles service
+
+                });
+
+ 
+
+                const view = new MapView({
+
+                    map: map,
+
+                    center: [-118.805, 34.027], // Longitude, latitude
+
+                    zoom: 13, // Zoom level
+
+                    container: "viewDiv" // Div element
+
+                });
+
+                //adding the constructor for the graphicslayer
+
+                const graphicsLayer = new GraphicsLayer();  
+
+map.add(graphicsLayer);
+
+//defining the geomatry of the point
+
+const point = { //Create a point  
+
+  type: "point",  
+
+  longitude: -97.750689,    //long lat of Stevie Ray Vaughan Statue
+
+  latitude: 30.263098
+
+};
+
+//defining the marker style
+
+const simpleMarkerSymbol = {  
+
+  type: "simple-marker",  
+
+  color: [0, 0, 139],  // Color of blues rock
+
+  outline: {  
+
+    color: [255, 255, 255], // White  
+
+    width: 1
+
+  }  
+
+};
+
+//creating the point
+
+const pointGraphic = new Graphic({  
+
+  geometry: point,  
+
+  symbol: simpleMarkerSymbol  
+
+});
+
+//adding the point to the graphicsLayer
+
+graphicsLayer.add(pointGraphic);
+
+ });
+
+</script>
+
+ 
+
+    </head>
+
+<body>
+
+<div id="viewDiv"></div>
+
+</body>
+
+</html>
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Today
+  <html>   <head>     <title>Hello,AGOL!</t... by Chakraborty, Torit
+3:02 PM
+Chakraborty, Torit
+
+ 
+
+<html>
+
+  <head>
+
+    <title>Hello,AGOL!</title>
+
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+    <title>ArcGIS Maps SDK for JavaScript Tutorials: Display a map</title>
+
+ 
+
+    <style>
+
+      html,
+
+      body,
+
+      #viewDiv {
+
+        padding: 0;
+
+        margin: 0;
+
+        height: 100%;
+
+        width: 100%;
+
+      }
+
+    </style>
+
+ 
+
+    <link rel="stylesheet" href="https://js.arcgis.com/4.28/esri/themes/light/main.css">
+
+    <script src="https://js.arcgis.com/4.28/"></script>
+
+ 
+
+    <script>
+
+      require(["esri/config", "esri/Map", "esri/views/MapView"], function(esriConfig, Map, MapView) {
+
+ 
+
+        esriConfig.apiKey = "AAPKaed28c18b701417c9d259e9b674317a29TBZZJ4aPEk2RYQyL_ArjjYNVBxD-KhYwKBme7MS0B2ymhL0xpvKRmEOoPiXHpT6";
+
+ 
+
+        const map = new Map({
+
+          basemap: "arcgis/topographic"
+
+ 
+
+      });
+
+ 
+
+ 
+
+        const view = new MapView({
+
+            map: map,
+
+            center: [-118.805, 34.027], // Longitude, latitude
+
+            zoom: 13, // Zoom level
+
+            container: "viewDiv" // Div element
+
+          });
+
+         
+
+        });  
+
+    </script>
+
+ 
+
+  </head>
+
+  <body>
+
+    <div id="viewDiv"></div>
+
+  </body>
+
+</html>
+
+  <html>   <head>     <title>Hello,AGOL!</t... by Chakraborty, Torit
+4:43 PM
+Chakraborty, Torit
+
+ 
+
+<html>
+
+  <head>
+
+    <title>Hello,AGOL!</title>
+
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+    <title>ArcGIS Maps SDK for JavaScript Tutorials: Display a map</title>
+
+ 
+
+    <style>
+
+      html,
+
+      body,
+
+      #viewDiv {
+
+        padding: 0;
+
+        margin: 0;
+
+        height: 100%;
+
+        width: 100%;
+
+      }
+
+    </style>
+
+ 
+
+    <link rel="stylesheet" href="https://js.arcgis.com/4.28/esri/themes/light/main.css">
+
+    <script src="https://js.arcgis.com/4.28/"></script>
+
+ 
+
+    <script>
+
+      require([
+
+        "esri/config",
+
+       "esri/Map",
+
+       "esri/views/MapView",
+
+ 
+
+       "esri/Graphic",
+
+       "esri/layers/GraphicsLayer"
+
+       ], function(esriConfig,Map, MapView, Graphic, GraphicsLayer) {
+
+ 
+
+        esriConfig.apiKey = "AAPKaed28c18b701417c9d259e9b674317a29TBZZJ4aPEk2RYQyL_ArjjYNVBxD-KhYwKBme7MS0B2ymhL0xpvKRmEOoPiXHpT6";
+
+ 
+
+        const map = new Map({
+
+          basemap: "arcgis/topographic"
+
+ 
+
+      });
+
+ 
+
+ 
+
+        const view = new MapView({
+
+            map: map,
+
+            center: [-118.805, 34.027], // Longitude, latitude
+
+            zoom: 13, // Zoom level
+
+            container: "viewDiv" // Div element
+
+          });
+
+         
+
+        const graphicsLayer = new GraphicsLayer();  
+
+        map.add(graphicsLayer);
+
+ 
+
+        const point = { //Create a point  
+
+  type: "point",  
+
+  longitude: -97.750689,    //long lat of Stevie Ray Vaughan Statue
+
+  latitude: 30.263098
+
+};
+
+ 
+
+const simpleMarkerSymbol = {  
+
+  type: "simple-marker",  
+
+  color: [0, 0, 139],  // Color of blues rock
+
+  outline: {  
+
+    color: [255, 255, 255], // White  
+
+    width: 1
+
+  }  
+
+};
+
+const pointGraphic = new Graphic({  
+
+  geometry: point,  
+
+  symbol: simpleMarkerSymbol  
+
+});
+
+ 
+
+graphicsLayer.add(pointGraphic);
+
+ 
+
+ 
+
+ });  
+
+    </script>
+
+ 
+
+  </head>
+
+  <body>
+
+    <div id="viewDiv"></div>
+
+  </body>
+
+</html>
+
+  <html>   <head>     <title>Hello,AGOL!</t... by Chakraborty, Torit
+5:03 PM
+Chakraborty, Torit
+
+ 
+
+<html>
+
+  <head>
+
+    <title>Hello,AGOL!</title>
+
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+    <title>ArcGIS Maps SDK for JavaScript Tutorials: Display a map</title>
+
+ 
+
+    <style>
+
+      html,
+
+      body,
+
+      #viewDiv {
+
+        padding: 0;
+
+        margin: 0;
+
+        height: 100%;
+
+        width: 100%;
+
+      }
+
+    </style>
+
+ 
+
+    <link rel="stylesheet" href="https://js.arcgis.com/4.28/esri/themes/light/main.css">
+
+    <script src="https://js.arcgis.com/4.28/"></script>
+
+ 
+
+    <script>
+
+      require([
+
+        "esri/config",
+
+       "esri/Map",
+
+       "esri/views/MapView",
+
+ 
+
+       "esri/Graphic",
+
+       "esri/layers/GraphicsLayer"
+
+       ], function(esriConfig,Map, MapView, Graphic, GraphicsLayer) {
+
+ 
+
+        esriConfig.apiKey = "AAPKaed28c18b701417c9d259e9b674317a29TBZZJ4aPEk2RYQyL_ArjjYNVBxD-KhYwKBme7MS0B2ymhL0xpvKRmEOoPiXHpT6";
+
+ 
+
+        const map = new Map({
+
+          basemap: "arcgis/topographic"
+
+ 
+
+      });
+
+ 
+
+ 
+
+        const view = new MapView({
+
+            map: map,
+
+            center: [-118.805, 34.027], // Longitude, latitude
+
+            zoom: 13, // Zoom level
+
+            container: "viewDiv" // Div element
+
+          });
+
+         
+
+        const graphicsLayer = new GraphicsLayer();  
+
+        map.add(graphicsLayer);
+
+ 
+
+        const point = { //Create a point  
+
+  type: "point",  
+
+  longitude: -97.750689,    //long lat of Stevie Ray Vaughan Statue
+
+  latitude: 30.263098
+
+};
+
+ 
+
+const simpleMarkerSymbol = {  
+
+  type: "simple-marker",  
+
+  color: [0, 0, 139],  // Color of blues rock
+
+  outline: {  
+
+    color: [255, 255, 255], // White  
+
+    width: 1
+
+  }  
+
+};
+
+ 
+
+const popupTemplate = {
+
+    title: "{Name}",
+
+    content: "{Description}"
+
+ }
+
+ const attributes = {
+
+    Name: "Stevie Ray Vaughan Statue",
+
+    Description: "A bronze sculpture of Stevie Ray Vaughan by Ralph Helmick"
+
+ }
+
+ 
+
+const popupTemplate = {
+
+    title: "{Name}",
+
+    content: "{Description}"
+
+ }
+
+ const attributes = {
+
+    Name: "Stevie Ray Vaughan Statue",
+
+    Description: "A bronze sculpture of Stevie Ray Vaughan by Ralph Helmick"
+
+ }
+
+ 
+
+ 
+
+const pointGraphic = new Graphic({  
+
+  geometry: point,  
+
+  symbol: simpleMarkerSymbol,
+
+ 
+
+attributes: attributes,
+
+popupTemplate: popupTemplate
+
+});
+
+ 
+
+graphicsLayer.add(pointGraphic);
+
+ 
+
+ 
+
+ });  
+
+    </script>
+
+ 
+
+  </head>
+
+  <body>
+
+    <div id="viewDiv"></div>
+
+  </body>
+
+</html>
+
+<!DOCTYPE html> <html lang="en"> <head> <ti... by Akter, Airin
+Akter, Airin
+5:13 PM
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,13 +821,18 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <meta name="description" content="" />
+
  
+
   <!-- calls for the arcgis api's CSS file and JS library. -->
 <link rel="stylesheet" href="https://js.arcgis.com/4.25/esri/themes/light/main.css">
 <script src="https://js.arcgis.com/4.25/"></script>
+
  
+
   <!-- Adding the modules, API key, and map constant needed for a full screen map app -->
 <script>
+
   require([  
 "esri/config",  
 "esri/Map",  
@@ -20,12 +841,16 @@
 "esri/layers/GraphicsLayer",   
 "esri/layers/FeatureLayer"
 ], function(esriConfig,Map, MapView, Graphic, GraphicsLayer,FeatureLayer) {
+
  
+
       esriConfig.apiKey = "AAPKbbf1d614464f43d6893e89040496e546zaR0zSPYnguI_N0zab0yje30u1aq2GS4mz7fzZ78FQ-aPa8vIq4PFEd2C6ceqofz";
       const map = new Map({
         basemap: "arcgis-topographic" // Basemap layer
       });
+
  
+
       const view = new MapView({
           map: map,
           center: [-82.324829, 29.651634], // Longitude, latitude
@@ -34,13 +859,18 @@
         });
         const graphicsLayer = new GraphicsLayer();  
         map.add(graphicsLayer);
+
  
+
  
+
         const point = { //Create a point  
         type: "point",  
         longitude: -82.324829,    //long lat of Stevie Ray Vaughan Statue
         latitude: 29.651634};
+
  
+
         const polyline = {
     type: "polyline",
     paths: [
@@ -51,7 +881,9 @@
         // Add more points if needed
     ]
 };
+
  
+
 const polygon = {
     type: "polygon",
     rings: [
@@ -63,7 +895,9 @@ const polygon = {
         [-87.634643, 30.86609] // Closing the polygon
     ]
 };
+
  
+
         const simpleMarkerSymbol = {  
         type: "simple-marker",  
         style:"cross",
@@ -73,13 +907,17 @@ const polygon = {
             width: 100
   }  
 };
+
  
+
 const simpleLineSymbol = {
     type: "simple-line",
     color: [0, 0, 255], // Orange
     width: 4
 };
+
  
+
 const simpleFillSymbol = {
     type: "simple-fill",
     color: [227, 139, 79, 0.4], // Orange color with transparency
@@ -96,8 +934,11 @@ const attributes = {
     Name: "Gainesville, FL",
     Description: "A city in northern Florida, known for the University of Florida."
 }
+
  
+
  
+
         const pointGraphic = new Graphic({  
          geometry: point,  
         symbol: simpleMarkerSymbol,
@@ -115,13 +956,17 @@ const polygonGraphic = new Graphic({
 graphicsLayer.add(polygonGraphic);
 graphicsLayer.add(pointGraphic);
 graphicsLayer.add(polylineGraphic);
+
  
+
 // Define a pop-up for usaeduLayer
         const popupEduusa = {
   "title": "EDUs",
   "content": "<b>Name:</b> {INSTNM}<br><b>City:</b> {CITY}<br><br><b>Longitude:</b> {LONGITUD}<br><b>Latitude:</b> {LATITUDE}<br>"
 }
+
  
+
 const usaeduLayer = new FeatureLayer({
 url: "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/Colleges_and_Universities_View/FeatureServer", //get URL from AGOL Item Page
 //adding the popup here
@@ -129,9 +974,13 @@ outFields: ["INSTNM","CITY","LONGITUD","LATITUDE"],
 popupTemplate: popupEduusa
 });
 map.add(usaeduLayer);
+
  
+
  
+
  
+
 const airportRenderer = {
         "type": "simple",
         "symbol": {
@@ -141,13 +990,17 @@ const airportRenderer = {
           "height": "10px"
         }
       }
+
  
+
 // Define a pop-up for usaeduLayer
 const popupAirport = {
   "Name": "Airports",
   "content": "<b>Type:</b> {Fac_Type}<br><b>Elevation:</b>{Elevation}<br>"
 }
+
  
+
 //const to make the airport labels
 const airportLabels = {
   symbol: {
@@ -179,11 +1032,17 @@ labelingInfo: [airportLabels], //adding the labels
 outFields: ["Fac_Type","Elevation"],
 popupTemplate: popupAirport
 });
+
  
+
 map.add(airportLayer);
+
  
+
  
+
  
+
 const heliportRederer = {
         "type": "simple",
         "symbol": {
@@ -193,23 +1052,35 @@ const heliportRederer = {
           "height": "18px"
         }
       }
+
  
+
  
+
 const heliportLayer = new FeatureLayer({
 url: "https://services.arcgis.com/LBbVDC0hKPAnLRpO/arcgis/rest/services/US_Airports_file/FeatureServer", 
 renderer: heliportRederer,
 definitionExpression: "Fac_Type = 'heliport'"
 });
+
  
+
  
+
 map.add(heliportLayer);
 });
+
  
+
  
+
  
+
     
 </script>
+
  
+
   <!-- css to make a full screen map -->
 <style>
     html,
@@ -221,12 +1092,440 @@ map.add(heliportLayer);
       width: 100%;
     }
 </style>
+
  
+
 </head>
 <body>
+
  
+
   <!-- the div to displays the map  -->
 <div id="viewDiv"></div>
+
  
+
 </body>
 </html>
+
+Link Hello, AGOL! (akterairin.github.io) by Akter, Airin
+Akter, Airin
+5:20 PM
+
+Hello, AGOL! (akterairin.github.io)
+
+Link https://toritgeoai.github.io/agoltorit by Chakraborty, Torit
+5:21 PM
+Chakraborty, Torit
+
+https://toritgeoai.github.io/agoltorit/
+
+Last read
+<!DOCTYPE html> <html lang="en"> <head> <ti... by Akter, Airin
+Akter, Airin
+5:38 PM
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>AGOL REST API</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="description" content="" />
+
+ 
+
+  <!-- calls for the arcgis api's CSS file and JS library. -->
+<link rel="stylesheet" href="https://js.arcgis.com/4.25/esri/themes/light/main.css">
+<script src="https://js.arcgis.com/4.25/"></script>
+
+ 
+
+  <!-- Adding the modules, API key, and map constant needed for a full screen map app -->
+<script>
+
+  require([  
+"esri/config",  
+"esri/Map",  
+"esri/views/MapView",   
+"esri/Graphic",  
+"esri/layers/GraphicsLayer",   
+"esri/layers/FeatureLayer",
+"esri/widgets/Editor",
+"esri/widgets/Legend"
+], function(esriConfig,Map, MapView, Graphic, GraphicsLayer,FeatureLayer,Editor,Legend) {
+
+ 
+
+      esriConfig.apiKey = "AAPKbbf1d614464f43d6893e89040496e546zaR0zSPYnguI_N0zab0yje30u1aq2GS4mz7fzZ78FQ-aPa8vIq4PFEd2C6ceqofz";
+      const map = new Map({
+        basemap: "arcgis-topographic" // Basemap layer
+      });
+
+ 
+
+      const view = new MapView({
+          map: map,
+          center: [-82.324829, 29.651634], // Longitude, latitude
+          zoom: 7, // Zoom level
+          container: "viewDiv" // Div element
+        });
+        const graphicsLayer = new GraphicsLayer();  
+        map.add(graphicsLayer);
+
+ 
+
+ 
+
+        const point = { //Create a point  
+        type: "point",  
+        longitude: -82.324829,    //long lat of Stevie Ray Vaughan Statue
+        latitude: 29.651634};
+
+ 
+
+        const polyline = {
+    type: "polyline",
+    paths: [
+        [-82.324829, 29.651634], // Starting point
+        [-82.324829, 29.651634],
+        [-81.655650, 30.332180],
+        [-80.1936600, 25.774270]  // Ending point
+        // Add more points if needed
+    ]
+};
+
+ 
+
+const polygon = {
+    type: "polygon",
+    rings: [
+        // Add the coordinates of the vertices of the polygon
+        [-87.634643, 30.86609], // Example point 1
+        [-80.031362, 31.003013], // Example point 2
+        [-80.031362, 24.396308], // Example point 3
+        [-81.949804, 24.396308], // Example point 4
+        [-87.634643, 30.86609] // Closing the polygon
+    ]
+};
+
+ 
+
+        const simpleMarkerSymbol = {  
+        type: "simple-marker",  
+        style:"cross",
+        color: [0, 0, 139],  // Color of blues rock
+        outline: {  
+            color: [255, 0, 0], // White  
+            width: 100
+  }  
+};
+
+ 
+
+const simpleLineSymbol = {
+    type: "simple-line",
+    color: [0, 0, 255], // Orange
+    width: 4
+};
+
+ 
+
+const simpleFillSymbol = {
+    type: "simple-fill",
+    color: [227, 139, 79, 0.4], // Orange color with transparency
+    outline: {
+        color: [0, 255, 0],
+        width: 1
+    }
+};
+const popupTemplate = {
+    title: "{Name}",
+    content: "{Description}"
+}
+const attributes = {
+    Name: "Gainesville, FL",
+    Description: "A city in northern Florida, known for the University of Florida."
+}
+
+ 
+
+ 
+
+        const pointGraphic = new Graphic({  
+         geometry: point,  
+        symbol: simpleMarkerSymbol,
+        attributes: attributes,
+        popupTemplate: popupTemplate  
+});
+        const polylineGraphic = new Graphic({
+          geometry: polyline,
+          symbol: simpleLineSymbol
+});
+const polygonGraphic = new Graphic({
+    geometry: polygon,
+    symbol: simpleFillSymbol
+});
+graphicsLayer.add(polygonGraphic);
+graphicsLayer.add(pointGraphic);
+graphicsLayer.add(polylineGraphic);
+
+ 
+
+// Define a pop-up for usaeduLayer
+        const popupEduusa = {
+  "title": "EDUs",
+  "content": "<b>Name:</b> {INSTNM}<br><b>City:</b> {CITY}<br><br><b>Longitude:</b> {LONGITUD}<br><b>Latitude:</b> {LATITUDE}<br>"
+}
+
+ 
+
+const usaeduLayer = new FeatureLayer({
+url: "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/Colleges_and_Universities_View/FeatureServer", //get URL from AGOL Item Page
+//adding the popup here
+outFields: ["INSTNM","CITY","LONGITUD","LATITUDE"],
+popupTemplate: popupEduusa
+});
+map.add(usaeduLayer);
+
+ 
+
+ 
+
+ 
+
+const airportRenderer = {
+        "type": "simple",
+        "symbol": {
+          "type": "picture-marker",
+          "url": "https://sounny.github.io/agol/outline_local_airport_black_24dp.png",
+          "width": "10px",
+          "height": "10px"
+        }
+      }
+
+ 
+
+// Define a pop-up for usaeduLayer
+const popupAirport = {
+  "Name": "Airports",
+  "content": "<b>Type:</b> {Fac_Type}<br><b>Elevation:</b>{Elevation}<br>"
+}
+
+ 
+
+//const to make the airport labels
+const airportLabels = {
+  symbol: {
+    type: "text",
+    color: "#FFFFFF",
+    haloColor: "#5E8D74",
+    haloSize: "2px",
+    font: {
+      size: "6px",
+      family: "Noto Sans",
+      style: "italic",
+      weight: "normal"
+    }
+  },
+  labelPlacement: "above-center",
+  labelExpressionInfo: {
+    expression: "$feature.Fac_Name"
+  }
+};
+const airportLayer = new FeatureLayer({
+url: "https://services.arcgis.com/LBbVDC0hKPAnLRpO/arcgis/rest/services/US_Airports_file/FeatureServer", 
+renderer: airportRenderer,
+definitionExpression: "Fac_Type = 'AIRPORT'",
+labelingInfo: [airportLabels], //adding the labels
+//adding sql to filter for airports,
+//get URL from AGOL Item Page
+//adding the popup here
+//adding the popup here
+outFields: ["Fac_Type","Elevation"],
+popupTemplate: popupAirport
+});
+
+ 
+
+map.add(airportLayer);
+
+ 
+
+ 
+
+ 
+
+const heliportRederer = {
+        "type": "simple",
+        "symbol": {
+          "type": "picture-marker",
+          "url": "https://safaei-mo.github.io/AGOL/helicopter_FILL0_wght400_GRAD0_opsz24.png",
+          "width": "18px",
+          "height": "18px"
+        }
+      }
+
+ 
+
+ 
+
+const heliportLayer = new FeatureLayer({
+url: "https://services.arcgis.com/LBbVDC0hKPAnLRpO/arcgis/rest/services/US_Airports_file/FeatureServer", 
+renderer: heliportRederer,
+definitionExpression: "Fac_Type = 'heliport'"
+});
+
+ 
+
+ 
+
+map.add(heliportLayer);
+
+ 
+
+ 
+
+ 
+
+ 
+
+const myAirportsRederer = {
+        "type": "simple",
+        "symbol": {
+          "type": "picture-marker",
+          "url": "https://safaei-mo.github.io/AGOL_Rest/airplane.png",
+          "width": "18px",
+          "height": "18px"
+        }
+      }
+
+ 
+
+ 
+
+      const MyairportLabels = {
+  symbol: {
+    type: "text",
+    color: "#FFFFFF",
+    haloColor: "#5E8D74",
+    haloSize: "2px",
+    font: {
+      size: "16px",
+      family: "Noto Sans",
+      style: "italic",
+      weight: "normal"
+    }
+  },
+  labelPlacement: "above-center",
+  labelExpressionInfo: {
+    expression: "$feature.Airport_Code"
+  }
+};
+
+ 
+
+ 
+
+//adding the const for the feature layer
+const myAirports = new FeatureLayer({
+url: "https://services.arcgis.com/LBbVDC0hKPAnLRpO/arcgis/rest/services/Airports_Visited/FeatureServer",
+renderer: myAirportsRederer,
+labelingInfo: [MyairportLabels],
+//adding the popup here
+outFields: ["Airport_Code"],
+
+ 
+
+});
+
+ 
+
+//adding the feature layer to the map
+map.add(myAirports);
+
+ 
+
+// Set the point layer's LayerInfo
+const pointInfos = {
+layer: myAirports
+}
+
+ 
+
+// Begin Editor constructor
+const editor = new Editor({
+view: view,
+layerInfos: [pointInfos]
+}); // End Editor constructor
+
+ 
+
+// Add the widget to the view
+view.ui.add(editor, "top-right");
+
+ 
+
+ 
+
+ 
+
+let legend = new Legend({
+  view: view,
+  layerInfos: [{
+    layer: myAirports,
+    title: 'Airports I  have Visited'
+  },
+  {
+    layer: usaeduLayer,
+    title: 'Colleges and Universities'
+  },
+  {
+    layer: airportLayer,
+    title: 'Airports'
+  },
+  {
+    layer: heliportLayer,
+    title: 'Heliports'
+  }]
+});
+
+ 
+
+view.ui.add(legend, "bottom-left");
+
+ 
+
+});
+</script>
+
+ 
+
+  <!-- css to make a full screen map -->
+<style>
+    html,
+    body,
+    #viewDiv {
+      padding: 0;
+      margin: 0;
+      height: 100%;
+      width: 100%;
+    }
+</style>
+
+ 
+
+</head>
+<body>
+
+ 
+
+  <!-- the div to displays the map  -->
+<div id="viewDiv"></div>
+
+ 
+
+</body>
+</html>
+
+
